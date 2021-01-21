@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: asdasd
+  description: asdasd
+  annotations: 
+    github.com/project-slug: blamdemo/blobby
+    backstage.io/source-ref: "https://github.com/blamdemo/blobby"
+    backstage.io/techdocs-ref: url:https://github.com/blamdemo/blobby
+    backstage.io/github-actions-id: https://github.com/blamdemo/blobby
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
